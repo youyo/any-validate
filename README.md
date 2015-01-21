@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'any/validate'
+
+class Hoge
+  include Any::Validate
+
+  valid_ipaddress? ip: '128.0.0.1' #=> true
+  valid_ipaddress? ip: '255.255.255.2555' #=> false
+end
+```
 
 ## Contributing
 
