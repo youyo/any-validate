@@ -28,6 +28,9 @@ class Hoge
 
   valid_ipaddress? ip: '128.0.0.1' #=> true
   valid_ipaddress? ip: '255.255.255.2555' #=> false
+
+  valid_macaddress? mac: 'B4:B5:2F:63:0F:7C' #=> true
+  valid_macaddress? mac: 'B4:B5:2F:63:0F:7G' #=> false
 end
 ```
 
