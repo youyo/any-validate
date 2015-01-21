@@ -31,6 +31,9 @@ class Hoge
 
   valid_macaddress? mac: 'B4:B5:2F:63:0F:7C' #=> true
   valid_macaddress? mac: 'B4:B5:2F:63:0F:7G' #=> false
+
+  valid_uuid? uuid: 'FEAAF64D-6132-44DD-8779-C2E297B622B5' #=> true
+  valid_uuid? uuid: 'FEAAF64D-6132-44DD-8779-C2E297B622B51' #=> false
 end
 ```
 
