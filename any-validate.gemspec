@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["1003ni2@gmail.com"]
   spec.summary       = %q{Validate the various things.}
   spec.description   = %q{Validate the various things.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/youyo/any-validate"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
