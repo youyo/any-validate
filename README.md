@@ -1,5 +1,7 @@
 # Any::Validate
 
+[![Build Status](https://travis-ci.org/youyo/any-validate.svg?branch=master)](https://travis-ci.org/youyo/any-validate)
+
 Validate the various things.
 
 ## Installation
